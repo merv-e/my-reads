@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# MyReads App
+This is an app for your books. You can search for books and/or add,change or remove books from these book shelves.
+There are two pages : Main page and search page. In the main page, you can find three different shelves:
+ * Currently reading  
+ * Want To Read 
+ * Read
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ ----------------------
 
-## Available Scripts
+ ## Main Page 
 
-In the project directory, you can run:
+ - You can simply change the shelf of a book that it is in by clicking the down-arrow button or remove the book from any of the shelves by clicking "None".  
+ 
+ ![Main Page](./src/assets/screenshots/main-page1.png)
+ The screenshot above depicts the main page, where red square is the menu for changing/removing book from a shelf, the blue square is for navigating to the search page. 
 
-### `npm start`
+## Search Page
+- You can search for books (please note that the search is limited by some keywords) and add/change the book to any shelf that is on the main page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Search Page](./src/assets/screenshots/search-page.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  -------------------------
+<br>
 
-### `npm test`
+### How to install and launch the project 
+To install the project 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+``` 
+git clone https://github.com/merv-e/nd0191-c1-myreads.git
+cd nd0191-c1-myreads    
+npm install 
+```
+  ----------------------
+<br>
 
-### `npm run build`
+To launch the project 
+``` 
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ This is the first project in Udacity's Senior Front End Engineer - OLX Scholarship Course.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
