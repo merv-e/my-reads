@@ -32,24 +32,3 @@ On the search page, users can easily search for new books.
 ## Important Note
 
 The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](https://github.com/udacity/nd0191-c1-myreads/blob/main/SEARCH_TERMS.md). That list of terms are the only terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
-
--------
-
-### How to Install and Launch the Project
-
-#### To install the project:
-
-```
-git clone https://github.com/merv-e/my-books.git
-cd my-books    
-npm install 
-```
-
-#### To launch the project 
-`npm start`
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
