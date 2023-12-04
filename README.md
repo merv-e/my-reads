@@ -6,7 +6,7 @@ My-Books is a React-based web application that allows users to discover, search,
 
 ## Features
 
-- **Search**: Easily find books by title, author, or genre using our powerful search functionality.
+- **Search**: Easily find books by title, or author using our powerful search functionality.
 - **Shelves**: Organize your books into custom shelves like "Want to Read," "Currently Reading," and "Read."
 
 ## Getting Started
