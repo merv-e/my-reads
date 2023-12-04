@@ -41,9 +41,13 @@ This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.
 
 ### How to Install and Launch the Project
 
-To install the project:
+#### To install the project:
 
-```bash
+```
 git clone https://github.com/merv-e/nd0191-c1-myreads.git
 cd nd0191-c1-myreads    
 npm install 
+```
+
+#### To launch the project 
+`npm start`
