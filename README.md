@@ -40,8 +40,8 @@ The backend API uses a fixed set of cached search results and is limited to a pa
 #### To install the project:
 
 ```
-git clone https://github.com/merv-e/nd0191-c1-myreads.git
-cd nd0191-c1-myreads    
+git clone https://github.com/merv-e/my-books.git
+cd my-books    
 npm install 
 ```
 
