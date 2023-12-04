@@ -1,42 +1,49 @@
-# MyReads App
-This is an app for your books. You can search for books and/or add,change or remove books from these book shelves.
-There are two pages : Main page and search page. In the main page, you can find three different shelves:
- * Currently reading  
- * Want To Read 
- * Read
+# My-Books
 
- ----------------------
+## Overview
 
- ## Main Page 
+My-Books is a React-based web application that allows users to discover, search, and manage their book collections. Whether you're an avid reader or just looking for your next read, My-Books provides a user-friendly experience to organize your reading list.
 
- - You can simply change the shelf of a book that it is in by clicking the down-arrow button or remove the book from any of the shelves by clicking "None".  
- 
- ![Main Page](./src/assets/screenshots/main-page1.png)
- The screenshot above depicts the main page, where red square is the menu for changing/removing book from a shelf, the blue square is for navigating to the search page. 
+## Features
 
-## Search Page
-- You can search for books (please note that the search is limited by some keywords) and add/change the book to any shelf that is on the main page.
+- **Search**: Easily find books by title, author, or genre using our powerful search functionality.
+- **Shelves**: Organize your books into custom shelves like "Want to Read," "Currently Reading," and "Read."
 
+## Getting Started
+
+Visit [My-Books](https://my-booooks.netlify.app) and start exploring your next favorite book. Create an account to save your personalized bookshelves and keep track of your reading journey.
+
+## Screenshots
+
+### Main Page
+![Main Page](./src/assets/screenshots/main-page1.png)
+
+On the main page, users can view their books and shelf information.
+
+### Search Page
 ![Search Page](./src/assets/screenshots/search-page.jpg)
 
-  -------------------------
-<br>
+On the search page, users can easily search for new books.
 
-### How to install and launch the project 
-To install the project 
+## Technologies Used
 
-``` 
+- [React](https://reactjs.org/)
+
+## Important Note
+
+The backend API uses a fixed set of cached search results and is limited to a particular set of search terms, which can be found in [SEARCH_TERMS.md](https://github.com/udacity/nd0191-c1-myreads/blob/main/SEARCH_TERMS.md). That list of terms are the only terms that will work with the backend, so don't be surprised if your searches for Basket Weaving or Bubble Wrap don't come back with any results.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md) - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+### How to Install and Launch the Project
+
+To install the project:
+
+```bash
 git clone https://github.com/merv-e/nd0191-c1-myreads.git
 cd nd0191-c1-myreads    
 npm install 
-```
-  ----------------------
-<br>
-
-To launch the project 
-``` 
-npm start
-```
-
- This is the first project in Udacity's Senior Front End Engineer - OLX Scholarship Course.
-
