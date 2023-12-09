@@ -1,8 +1,8 @@
-# My-Books
+# My-Reads
 
 ## Overview
 
-My-Books is a React-based web application that allows users to discover, search, and manage their book collections. Whether you're an avid reader or just looking for your next read, My-Books provides a user-friendly experience to organize your reading list.
+My-Reads is a React-based web application that allows users to discover, search, and manage their book collections. Whether you're an avid reader or just looking for your next read, My-Books provides a user-friendly experience to organize your reading list.
 
 ## Features
 
@@ -11,7 +11,7 @@ My-Books is a React-based web application that allows users to discover, search,
 
 ## Getting Started
 
-Visit [My-Books](https://my-booooks.netlify.app) and start exploring your next favorite book. Create an account to save your personalized bookshelves and keep track of your reading journey.
+Visit [My-Reads](https://my-booooks.netlify.app) and start exploring your next favorite book. Create an account to save your personalized bookshelves and keep track of your reading journey.
 
 ## Screenshots
 
